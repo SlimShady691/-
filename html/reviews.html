@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+
+    <link rel="stylesheet" href="/css/reviews.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="/html/main.html" class="logo">"КУЗБАСС"</a>
+                    <nav class="nav">
+                        <a href="/html/main.html">главная</a>
+                        <a href="/html/rooms.html">номера</a>
+                        <a href="/html/services.html">услуги</a>
+                        <a href="/html/halls.html">залы</a>
+                        <a href="/html/contacts.html">контакты</a>
+                        <a href="/html/reviews.html" class="header__active active">отзывы</a>
+                    </nav>
+                    <div class="address">
+                        <span>город<br>
+                        Шахты<br></span>
+                        
+                        ул. 50 лет<br>
+                        ВЛКСМ 21Б
+                    </div>
+                </div>
+            </div>        
+        </header>
+
+
+        <main class="main">
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main__title">ОТЗЫВЫ</div>
+                    <div class="rewie__container">
+                        <div class="rewie__name">Ванько, <span>от 15/02/2025 - 23:24</span></div>
+                        <div class="rewie__subtitle">Отзыв:<br><span>Чето то там типа как то таким вот образом написана :-0</span></div>
+                    </div>
+
+                    <div class="form__container">
+                        <div class="form__background">
+                            <label>Ваше имя:</label>
+                            <input type="text" placeholder="Введите имя">
+                        </div>
+                        
+                        <div class="form__background">
+                            <label>Ваш email:</label>
+                            <input type="email" placeholder="Введите email">
+                        </div>
+                        
+                        <div class="rewie__background">
+                            <label class="form__title">Отзыв:</label>
+                            <textarea></textarea>
+                        </div>
+                        
+                    
+                        <button class="submit-btn">ОСТАВИТЬ ОТЗЫВ</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="title">
+                        БРОНИРОВАНИЕ НОМЕРОВ
+                    </div>
+                    <div class="data-picker">
+                        <div class="input-container">
+                            <img class="icon" src="/image/about_page/calendar.png" alt="">
+                            <label for="checkin">ДАТА ЗАЕЗДА</label>
+                            <input type="text" id="checkin" placeholder="выберите дату">
+                        </div>
+                        <div class="input-container">
+                            <img src="/image/about_page/calendar.png" alt="Иконка календаря" class="icon">
+                            <label for="checkout">ДАТА ВЫЕЗДА</label>
+                            <input type="text" id="checkout" placeholder="выберите дату">
+                        </div>
+                    </div>
+                    <div class="search">
+                        <img src="/image/about_page/search.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="/js/rooms.js"></script>
+</body>
+</html>

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+
+body {
+    background-image: url('/image/about_page/backgrpund.png');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+
+.container {
+    min-width: 1200px;
+}
+
+.header {
+    width: 1200px;
+    height: 100px;
+    background: rgba(140, 180, 150, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    font-family: 'Open Sans';
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.6;
+}
+
+.header__active.active {
+    font-weight: bold;
+}
+
+.address {
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+
+.address span {
+    font-weight: 800;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+.cafe-image {
+    width: 400px;
+}
+
+.cafe-container {
+    width: 1200px;
+    height: 1011px;
+    background: rgba(153, 205, 216, 0.55);
+    backdrop-filter: blur(30px);
+    border-radius: 90px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cafe-top {
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+    width: 1035px;
+    height: 570px;
+    background: rgba(153, 205, 216, 0.86);
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 90px;
+    padding-left: 50px
+}
+
+.cafe-top__block1 {
+    text-align: center;
+}
+
+.cafe-top-text {
+    width: 521px;
+    height: 181px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.cafe-logo {
+    font-size: 32px;
+    text-align: center;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 10px 0 10px 0;
+    width: 342px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    font-family: 'Open Sans';
+}
+
+.cafe-bottom {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+    width: 1091px;
+    margin-bottom: 50px;
+}
+
+
+
+.cafe-right {
+    width: 600px;
+    height: 376px;
+    background: rgba(153, 205, 216, 0.86);
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 90px;
+}
+
+.cafe-left {
+    width: 600px;
+    height: 376px;
+    background: rgba(153, 205, 216, 0.86);
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 90px;
+}
+
+.cafe-l-mtext {
+    text-align: center;
+    font-size: 32px;
+    height: 41px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+
+.cafe-r-mtext {
+    font-size: 32px;
+    text-align: center;
+    height: 41px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    font-family: 'Open Sans';
+}
+
+.cafe-l-text {
+    width: 350px;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.cafe-r-text {
+    width: 350px;
+    margin-left: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer {
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* Контейнер для всей формы */
+.data-picker {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Расстояние между элементами */
+}
+
+/* Индивидуальный контейнер для поля ввода */
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #99cdd8; 
+    padding: 7.8px 13px; 
+    padding-right: 3.9px; 
+    border-radius: 65px; 
+    box-shadow: 0 2.6px 5.2px rgba(0, 0, 0, 0.1); 
+    width: 280px; 
+}
+
+/* Текст "ДАТА ЗАЕЗДА" и "ДАТА ВЫЕЗДА" */
+label {
+    font-weight: bold;
+    font-size: 15.6px; 
+    margin-right: 10.4px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Поле ввода (размер теперь фиксированный) */
+input {
+    outline: none;
+    background: white;
+    font-size: 13px;
+    color: #000;
+    width: 90px; /* Фиксированная ширина */
+    height: 20px; /* Фиксированная высота */
+    border-radius: 90px;
+    padding: 0;
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    pointer-events: none; /* Запрещаем ввод вручную */
+}
+
+/* Иконка календаря */
+.icon {
+    width: 31.2px;
+    height: 31.2px;
+    margin-right: 13px;
+    cursor: pointer; /* Делаем иконку кликабельной */
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #888;
+    font-size: 12px; 
+    display: flex;
+    align-items: center;
+    height: 100% ;
+}
+
+.search {
+    max-width: 80px;
+}
+.search img{
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+.footer__inner {
+    height: 100px; 
+    background: rgba(140, 180, 150, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    font-family: 'Open Sans';
+}

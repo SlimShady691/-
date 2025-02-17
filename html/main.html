@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KuzbASS</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="logo">"КУЗБАСС"</div>
+                    <nav class="nav">
+                        <a href="/html/main.html" class="header__active active">главная</a>
+                        <a href="/html/rooms.html">номера</a>
+                        <a href="/html/services.html">услуги</a>
+                        <a href="/html/halls.html">залы</a>
+                        <a href="/html/contacts.html">контакты</a>
+                        <a href="/html/reviews.html">отзывы</a>
+                    </nav>
+                    <div class="address">
+                        <span>город<br>
+                            Шахты<br></span>
+                        ул. 50 лет<br>
+                        ВЛКСМ 21Б
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="info">
+                    <div class="info-block__one">
+                        <div class="logo-2">"КУЗБАСС"</div>
+                        <p class="info-block__one-text">Гостиница «Кузбасс» (г. Шахты) – это лучший выбор места проживания вне зависимости от того, чем Вы занимаетесь и как надолго решили к нам приехать. Специально для Вас мы собрали весь комплекс гостиничных услуг в одной уютной, комфортабельной гостинице г. Шахты.
+                        </p>
+                    </div>
+                    <div class="info-block__two">
+                        <img src="\image\main_page\doc.png" class="doc" alt="Сертификат">
+                    </div>
+
+                    <!-- Slider main container -->
+                    <div class="slider-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="\image\main_page\ima1.jpg"></div>
+                                <div class="swiper-slide"><img src="\image\main_page\ima2.jpg"></div>
+                                <div class="swiper-slide"><img src="\image\main_page\ima3.jpg"></div>
+                                <div class="swiper-slide"><img src="\image\main_page\ima4.jpg"></div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button class="learn-more-button">
+                            <img src="\image\main_page\mouse.png" alt="Иконка" class="button-icon">
+                            <div class="button-text">
+                                <span class="button-main-text">УЗНАТЬ БОЛЬШЕ</span>
+                                <span class="button-subtext">о "Кузбасс"</span>
+                            </div>
+                        </button>
+                    </div>
+
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="title">
+                        БРОНИРОВАНИЕ НОМЕРОВ
+                    </div>
+                    <div class="data-picker">
+                        <div class="input-container">
+                            <img src="/image/main_page/calendar.png" alt="Иконка календаря" class="icon icon-checkin">
+                            <label for="checkin">ДАТА ЗАЕЗДА</label>
+                            <input type="text" id="checkin" placeholder="выберите дату">
+                        </div>
+                        <div class="input-container">
+                            <img src="/image/main_page/calendar.png" alt="Иконка календаря" class="icon icon-checkout">
+                            <label for="checkout">ДАТА ВЫЕЗДА</label>
+                            <input type="text" id="checkout" placeholder="выберите дату">
+                        </div>
+                    </div>
+                    <div class="search">
+                        <img src="/image/main_page/search.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="\js\main.js"></script>
+
+</body>
+
+
+</html>

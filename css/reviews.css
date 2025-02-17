@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+
+body {
+    background-image: url('/image/about_page/backgrpund.png');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center; 
+    display: flex;
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+
+
+.container {
+    min-width: 1300px;
+}
+
+
+.logo, .main__title, .title{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    transition: opacity 0.2s ease-in;
+}
+.logo:hover {
+    opacity: 0.6;
+}
+
+.header__active.active {
+    font-weight: bold;
+}
+
+
+
+/* ДЛЯ HEADER */
+.header {
+    display: flex;
+    width: 1200px;
+    margin-bottom: 60px;
+}
+.header__inner, .footer__inner {
+    height: 100px; 
+    background: rgba(140, 180, 150, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+.nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.nav a:hover {
+    opacity: 0.6;
+}
+
+.address {
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+.address span {
+    font-weight: 800;
+}
+
+.header__active.active {
+    font-weight: bold;
+}
+
+
+
+
+/* ДЛЯ MAIN */
+.main__inner {
+    width: 1200px;
+    height: auto;
+    background: rgba(153, 205, 216, 0.55);
+    backdrop-filter: blur(30px);
+    border-radius: 90px;
+    padding: 25px 50px 10px 50px; 
+
+    text-align: center;
+}
+
+
+
+
+.rewie__container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #99CDD8;
+    border-radius: 90px;
+    border: 2px solid black;
+    text-align: start;
+    padding: 15px 30px 15px 30px;
+    max-width: 1200px;
+
+    margin-top: 23px;
+    margin-bottom: 90px;
+}
+
+.rewie__name {
+    font-weight: bold;
+}
+span {
+    font-weight: 400;
+}
+
+.rewie__subtitle {
+    font-weight: bold;
+}
+
+.form__container {
+    padding: 20px;
+    border-radius: 90px;
+    width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form__background {
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #99CDD8;
+    margin-bottom: 15px;
+    border-radius: 90px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+}
+
+.form__title {
+    font-size: 22px;
+}
+
+input {
+    width: 300px ;
+    padding: 8px 8px 15px 8px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 90px;
+    font-size: 14px;
+}
+
+label {
+    font-size: 22px;
+}
+
+.rewie__background {
+    height: auto;
+    background-color: #99CDD8;
+    margin-bottom: 15px;
+    border-radius: 90px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+}
+
+textarea {
+    width: 1100px !important; 
+    height: 100px;
+    resize: none;
+    min-width: 200px;
+    padding-left: 10px;
+  }
+
+.submit-btn {
+    background: white;
+    border: none;
+    padding: 13px 12px 10px 12px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 90px;
+    margin-top: 15px;
+    transition: opacity 0.2s;
+}
+.submit-btn:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+  /* ДЛЯ FOOTER */
+.footer {
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+/* Контейнер для всей формы */
+.data-picker {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Расстояние между элементами */
+}
+
+/* Индивидуальный контейнер для поля ввода */
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #99cdd8; 
+    padding: 7.8px 13px; 
+    padding-right: 3.9px; 
+    border-radius: 65px; 
+    box-shadow: 0 2.6px 5.2px rgba(0, 0, 0, 0.1); 
+    width: 325px; 
+}
+
+/* Иконка календаря */
+.icon {
+    width: 31.2px; 
+    height: 31.2px; 
+    margin-right: 13px; 
+}
+
+/* Текст "ДАТА ЗАЕЗДА" и "ДАТА ВЫЕЗДА" */
+label {
+    font-weight: bold;
+    font-size: 15.6px; 
+    margin-right: 10.4px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Поле ввода */
+input {
+    outline: none;
+    background: white; 
+    font-size: 15.6px; 
+    color: #000;
+    max-width: 120px; 
+    border-radius: 90px; 
+    height: 15px; /* Задайте высоту */
+    padding: 0;
+    border: 1px solid #000; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #888;
+    font-size: 12px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100% ;
+}
+
+.search {
+    max-width: 80px;
+}
+.search img{
+    width: 80px;
+    height: 80px;
+}
